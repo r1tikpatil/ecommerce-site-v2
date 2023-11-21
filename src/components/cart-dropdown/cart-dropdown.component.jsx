@@ -17,7 +17,7 @@ const CartDropdown = () => {
   const navigate = useNavigate();
 
   const goToCheckoutHandler = () => {
-    setIsCartOpen((p) => !p);
+    setIsCartOpen(false);
     navigate("/checkout");
   };
 
